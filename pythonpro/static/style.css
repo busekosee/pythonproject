@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#sorular {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+#sonuclar {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.soru input[type="radio"] {
+    transform: scale(1.5); /* Radio düğmelerini büyütme */
+    margin-right: 10px; /* Radio düğmeleri ile metin arasında boşluk bırakma */
+}
+
+.soru label {
+    font-size: 18px; /* Metin boyutunu büyütme */
+}
